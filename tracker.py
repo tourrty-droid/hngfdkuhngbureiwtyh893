@@ -4,8 +4,8 @@ import requests
 from datetime import datetime, timezone
 
 # ============ CONFIG / НАСТРОЙКИ ============
-BOT_TOKEN = os.environ["8944384798:AAHh2ls4i1Gt2O9hmfoVape7GWygHvVC0i4"]              # токен бота (секрет)
-CHAT_ID   = os.environ["-1004262220864"]                # id канала: -100xxxxxxxxxx
+BOT_TOKEN = os.environ["BOT_TOKEN"]              # токен бота (секрет)
+CHAT_ID   = os.environ["CHAT_ID"]                # id канала: -100xxxxxxxxxx
 
 BADGE_ID  = 2701017739640148
 BADGE_URL = f"https://www.roblox.com/badges/{BADGE_ID}/"
